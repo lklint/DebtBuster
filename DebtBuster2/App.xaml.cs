@@ -1,12 +1,10 @@
-﻿    using System;
-using System.Diagnostics;
-    using System.Windows;
-using System.Windows.Markup;
+﻿using System.Diagnostics;
+using System.Windows;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
-namespace DebtBuster
+namespace DebtBuster2
 {
     public partial class App : Application
     {
@@ -29,7 +27,7 @@ namespace DebtBuster
 
             // Phone-specific initialization
             InitializePhoneApplication();
-
+            
             // Show graphics profiling information while debugging.
             if (Debugger.IsAttached)
             {
@@ -159,7 +157,6 @@ namespace DebtBuster
 
         #endregion
 
-        
-        
+       
     }
 }
